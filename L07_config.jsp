@@ -11,6 +11,7 @@
 <body>
 ID: <%= config.getInitParameter("id") %>
 PW: <%= config.getInitParameter("pw") %>
+Name: <%= config.getInitParameter("name") %>
 
 <hr>
 getServletName() : <%= config.getServletName() %>
